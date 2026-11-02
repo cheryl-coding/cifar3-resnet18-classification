@@ -1,0 +1,13 @@
+{
+  "mode": "fine_tune",
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.8888493871809343,
+  "seed": 42,
+  "lr": 0.0001,
+  "epochs_requested": 3,
+  "batch_size": 32,
+  "device": "mps",
+  "pretraining": "ImageNet1K V1",
+  "pretrained_weights_file": null,
+  "trainable_parameters": 8395267
+}

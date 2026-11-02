@@ -1,0 +1,61 @@
+{
+  "model": "frozen",
+  "dataset": "official CIFAR-10 held-out test subset",
+  "test_count": 450,
+  "accuracy": 0.86,
+  "macro_f1": 0.858973067112379,
+  "accuracy_ci_95_bootstrap": [
+    0.8266666666666667,
+    0.8911111111111111
+  ],
+  "class_report": {
+    "cat": {
+      "precision": 0.7988505747126436,
+      "recall": 0.9266666666666666,
+      "f1-score": 0.8580246913580247,
+      "support": 150.0
+    },
+    "dog": {
+      "precision": 0.889763779527559,
+      "recall": 0.7533333333333333,
+      "f1-score": 0.8158844765342961,
+      "support": 150.0
+    },
+    "horse": {
+      "precision": 0.9060402684563759,
+      "recall": 0.9,
+      "f1-score": 0.903010033444816,
+      "support": 150.0
+    },
+    "accuracy": 0.86,
+    "macro avg": {
+      "precision": 0.8648848742321928,
+      "recall": 0.86,
+      "f1-score": 0.858973067112379,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.8648848742321928,
+      "recall": 0.86,
+      "f1-score": 0.8589730671123789,
+      "support": 450.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      139,
+      7,
+      4
+    ],
+    [
+      27,
+      113,
+      10
+    ],
+    [
+      8,
+      7,
+      135
+    ]
+  ]
+}

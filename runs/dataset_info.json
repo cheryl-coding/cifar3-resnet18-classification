@@ -1,0 +1,31 @@
+{
+  "source": "CIFAR-10 official training/test subsets",
+  "seed": 42,
+  "classes": [
+    "cat",
+    "dog",
+    "horse"
+  ],
+  "original_pixel_size": [
+    32,
+    32
+  ],
+  "preprocessing": "resize 224x224, ImageNet normalization; training-only flip",
+  "counts": {
+    "train": {
+      "cat": 600,
+      "dog": 600,
+      "horse": 600
+    },
+    "val": {
+      "cat": 150,
+      "dog": 150,
+      "horse": 150
+    },
+    "test": {
+      "cat": 150,
+      "dog": 150,
+      "horse": 150
+    }
+  }
+}

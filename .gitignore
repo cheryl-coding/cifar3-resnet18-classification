@@ -1,0 +1,23 @@
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Recreated datasets and checkpoints
+data/
+*.pth
+*.pt
+*.ckpt
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local output not tracked in this example
+.ipynb_checkpoints/
